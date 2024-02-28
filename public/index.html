@@ -1,129 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vasai Local | IT</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vasai Local | IT</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<style> 
-    img { 
-        filter: drop-shadow(1px 2px 15px #222); 
+<style>
+  img {
+    filter: drop-shadow(1px 2px 15px #222);
 
-    } 
-</style> 
+  }
+</style>
 
 
-</head> 
-<body >
-    
-<header>
+</head>
+
+<body>
+
+  <header>
     <nav>
-        <div class=" w-full max-w-7xl">
-            <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl p-5 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
-                <div class="flex flex-row items-center justify-between lg:justify-start">
-                    <a class="text-lg font-bold tracking-tighter text-blue-600 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8" href="/groups/header/"> vasailocal </a>
-                    <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
-                        <svg fill="currentColor" viewBox="0 0 20 20" class="w-8 h-8">
-                            <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-                            <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" style="display: none"></path>
-                        </svg>
-                    </button>
-                </div>
-                <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden md:flex md:justify-start md:flex-row">
-                    <ul class="space-y-2 list-none lg:space-y-0 lg:items-center lg:inline-flex">
-                        <li>
-                            <a href="#" class="px-2 lg:px-6 py-6 text-sm border-b-2 border-transparent hover:border-blue-600 leading-[22px] md:px-3 text-gray-500 hover:text-blue-500"> All <span class="hidden lg:inline"> templates </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="px-2 lg:px-6 py-6 text-sm border-b-2 border-transparent leading-[22px] md:px-3 text-gray-500 hover:text-blue-500 hover:border-blue-600"> FAQ </a>
-                        </li>
-                        <li>
-                            <a href="https://www.wickedtemplates.com/" class="px-2 lg:px-6 py-6 text-sm border-b-2 border-transparent hover:border-blue-600 leading-[22px] md:px-3 text-gray-500 hover:text-blue-500"> Free <span class="hidden lg:inline">Templates </span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+      <div class=" w-full max-w-7xl">
+        <div x-data="{ open: false }"
+          class="flex flex-col max-w-screen-xl p-5 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+          <div class="flex flex-row items-center justify-between lg:justify-start">
+            <a class="text-lg font-bold tracking-tighter text-blue-600 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
+              href="/groups/header/"> vasailocal </a>
+            <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+              <svg fill="currentColor" viewBox="0 0 20 20" class="w-8 h-8">
+                <path x-show="!open" fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                  clip-rule="evenodd"></path>
+                <path x-show="open" fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd" style="display: none"></path>
+              </svg>
+            </button>
+          </div>
+          <nav :class="{'flex': open, 'hidden': !open}"
+            class="flex-col flex-grow hidden md:flex md:justify-start md:flex-row">
+            <ul class="space-y-2 list-none lg:space-y-0 lg:items-center lg:inline-flex">
+              <li>
+                <a href="#"
+                  class="px-2 lg:px-6 py-6 text-sm border-b-2 border-transparent hover:border-blue-600 leading-[22px] md:px-3 text-gray-500 hover:text-blue-500">
+                  All <span class="hidden lg:inline"> templates </span>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  class="px-2 lg:px-6 py-6 text-sm border-b-2 border-transparent leading-[22px] md:px-3 text-gray-500 hover:text-blue-500 hover:border-blue-600">
+                  FAQ </a>
+              </li>
+              <li>
+                <a href="https://www.wickedtemplates.com/"
+                  class="px-2 lg:px-6 py-6 text-sm border-b-2 border-transparent hover:border-blue-600 leading-[22px] md:px-3 text-gray-500 hover:text-blue-500">
+                  Free <span class="hidden lg:inline">Templates </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </nav>
     <section>
-        <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
-          <div class="flex flex-wrap items-center mx-auto max-w-7xl">
-            <div class="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
-              <div>
-                <div class="relative w-full max-w-lg">
-                  <div class="absolute top-0 rounded-full bg-blue-300 -left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-      
-                  <div class="absolute rounded-full bg-red-200 -bottom-24 right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-                  <div class="relative">
-                    <img class="object-cover object-center mx-auto rounded-lg" alt="hero" src="https://i.imgur.com/ZuZONr1.png">
-                  </div>
+      <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
+        <div class="flex flex-wrap items-center mx-auto max-w-7xl">
+          <div class="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
+            <div>
+              <div class="relative w-full max-w-lg">
+                <div
+                  class="absolute top-0 rounded-full bg-blue-300 -left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob">
                 </div>
-              </div>
-            </div>
-            <div class="flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
-              <span class="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Driving Digital Transformation in Your Neighborhood </span>
-              <h1 class="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl">Vasai Local | IT Hub.</h1>
-              <p class="mb-8 text-base leading-relaxed text-left text-gray-500">Note: This site is under heavy development</p>
-              <div class="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex">
-                <dl class="grid grid-cols-1 gap-12 md:grid-cols-2">
-                  <div>
-                    <dt class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-blue-600 rounded-full bg-blue-50">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 icon icon-tabler icon-tabler-aperture" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <circle cx="12" cy="12" r="9"></circle>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15"></line>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)"></line>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)"></line>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)"></line>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)"></line>
-                      </svg>
-                    </dt>
-                    <dd class="flex-grow">
-                      <h2 class="mb-3 text-lg font-medium tracking-tighter text-neutral-600">Desktop Support</h2>
-                      <p class="text-base leading-relaxed text-gray-400">Technical assistance and troubleshooting solutions tailored to individual workstations, laptops, and related devices.</p>
-                      <a href="#" class="inline-flex items-center mt-6 font-semibold text-blue-500 md:mb-2 lg:mb-0 hover:text-neutral-600" title="read more">
-                        Learn More
-                        <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                          <path fill="none" d="M0 0h24v24H0z"></path>
-                          <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
-                        </svg>
-                      </a>
-                    </dd>
-                  </div>
-                  <div>
-                    <dt class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-blue-600 rounded-full bg-blue-50">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 icon icon-tabler icon-tabler-aperture" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <circle cx="12" cy="12" r="9"></circle>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15"></line>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)"></line>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)"></line>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)"></line>
-                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)"></line>
-                      </svg>
-                    </dt>
-                    <dd class="flex-grow">
-                      <h2 class="mb-3 text-lg font-medium tracking-tighter text-neutral-600">Netwokring</h2>
-                      <p class="text-base leading-relaxed text-gray-400">Explain 2 great feature here. Information about the feature.</p>
-                      <a href="#" class="inline-flex items-center mt-6 font-semibold text-blue-500 md:mb-2 lg:mb-0 hover:text-neutral-600" title="read more">
-                        Learn More
-                        <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                          <path fill="none" d="M0 0h24v24H0z"></path>
-                          <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
-                        </svg>
-                      </a>
-                    </dd>
-                  </div>
-                </dl>
+
+                <div
+                  class="absolute rounded-full bg-red-200 -bottom-24 right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000">
+                </div>
+                <div class="relative">
+                  <img class="object-cover object-center mx-auto rounded-lg" alt="hero"
+                    src="/public/under.png">
+                </div>
               </div>
             </div>
           </div>
+          <div
+            class="flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
+            <span class="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Driving Digital Transformation
+              in Your Neighborhood </span>
+            <h1 class="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl">
+              Vasai Local | IT Hub.</h1>
+            <p class="mb-8 text-base leading-relaxed text-left text-gray-500">Note: This site is under heavy development
+            </p>
+            <div class="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex">
+              <dl class="grid grid-cols-1 gap-12 md:grid-cols-2">
+                <div>
+                  <dt
+                    class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-blue-600 rounded-full bg-blue-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 icon icon-tabler icon-tabler-aperture"
+                      width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M2.84436 13V7.50664C2.84436 5.48403 4.48401 3.84439 6.50661 3.84439H17.4933C19.516 3.84439 21.1556 5.48403 21.1556 7.50663V13C21.1556 15.0226 19.5159 16.6623 17.4933 16.6623H6.50661C4.484 16.6623 2.84436 15.0226 2.84436 13Z" stroke="#1C1C1C" stroke-width="1.7"/>
+                      <path d="M6.03967 20.3245H17.9603" stroke="#1C1C1C" stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                  </dt>
+                  <dd class="flex-grow">
+                    <h2 class="mb-3 text-lg font-medium tracking-tighter text-neutral-600">Desktop Support</h2>
+                    <p class="text-base leading-relaxed text-gray-400">Technical assistance and troubleshooting
+                      solutions tailored to individual workstations, laptops, and related devices.</p>
+                    <a href="#"
+                      class="inline-flex items-center mt-6 font-semibold text-blue-500 md:mb-2 lg:mb-0 hover:text-neutral-600"
+                      title="read more">
+                      Learn More
+                      <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                        height="20" fill="currentColor">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z">
+                        </path>
+                      </svg>
+                    </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt
+                    class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-blue-600 rounded-full bg-blue-50">
+                    <svg width="24px" height="24px" viewBox="0 -1.5 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="Dribbble-Light-Preview" transform="translate(-423.000000, -3604.000000)" fill="#000000">
+                              <g id="icons" transform="translate(56.000000, 160.000000)">
+                                  <path d="M372.109921,3452.95655 L372.804851,3453.69409 C373.189176,3454.10197 373.811369,3454.10197 374.194711,3453.69409 L374.889641,3452.95655 C374.121974,3452.14182 372.877588,3452.14182 372.109921,3452.95655 M369.330202,3450.00642 L370.720061,3451.48148 C372.252446,3449.85411 374.747116,3449.85411 376.280483,3451.48148 L377.670343,3450.00642 C375.367344,3447.56118 371.633201,3447.56118 369.330202,3450.00642 M379.711884,3447.83867 L379.060203,3448.5303 C375.989537,3445.27139 371.011008,3445.27139 367.939359,3448.5303 L367.287678,3447.83867 C366.870917,3447.39636 366.913183,3446.66404 367.374176,3446.27285 C370.948101,3443.24238 376.052444,3443.24238 379.626369,3446.27285 C380.087362,3446.66404 380.128645,3447.39636 379.711884,3447.83867" id="wifi-[#1029]">
+                  
+                  </path>
+                              </g>
+                          </g>
+                      </g>
+                  </svg>
+                  </dt>
+                  <dd class="flex-grow">
+                    <h2 class="mb-3 text-lg font-medium tracking-tighter text-neutral-600">Netwokring</h2>
+                    <p class="text-base leading-relaxed text-gray-400">Explain 2 great feature here. Information about
+                      the feature.</p>
+                    <a href="#"
+                      class="inline-flex items-center mt-6 font-semibold text-blue-500 md:mb-2 lg:mb-0 hover:text-neutral-600"
+                      title="read more">
+                      Learn More
+                      <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                        height="20" fill="currentColor">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z">
+                        </path>
+                      </svg>
+                    </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt
+                    class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mb-5 text-blue-600 rounded-full bg-blue-50">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="#F00" fill-rule="evenodd" d="M7.957359,18.9123664 C4.11670252,18.9123664 1,15.803458 1,11.9617373 C1,8.12000773 4.11670252,5 7.957359,5 L16.0437948,5 C19.8855156,5 23,8.12000773 23,11.9617373 C23,15.803458 19.8855156,18.9123664 16.0437948,18.9123664 L7.957359,18.9123664 L7.957359,18.9123664 Z M15.8639176,16.4585488 C18.352201,16.4585488 20.3674397,14.448858 20.3674397,11.9617373 C20.3674397,9.47460595 18.352201,7.45381934 15.8639176,7.45381934 L8.1360824,7.45381934 C5.64895285,7.45381934 3.63255855,9.47460595 3.63255855,11.9617373 C3.63255855,14.448858 5.64895285,16.4585488 8.1360824,16.4585488 L15.8639176,16.4585488 L15.8639176,16.4585488 Z"/>
+                    </svg>
+                  </dt>
+                  <dd class="flex-grow">
+                    <h2 class="mb-3 text-lg font-medium tracking-tighter text-neutral-600">Oracle Database Infrastructure</h2>
+                    <p class="text-base leading-relaxed text-gray-400">Explain 2 great feature here. Information about
+                      the feature.</p>
+                    <a href="#"
+                      class="inline-flex items-center mt-6 font-semibold text-blue-500 md:mb-2 lg:mb-0 hover:text-neutral-600"
+                      title="read more">
+                      Learn More
+                      <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                        height="20" fill="currentColor">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z">
+                        </path>
+                      </svg>
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
         </div>
-      </section>
-</header>
+      </div>
+    </section>
+  </header>
 
 </body>
+
 </html>
