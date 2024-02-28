@@ -27,7 +27,7 @@
           class="flex flex-col max-w-screen-xl p-5 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
           <div class="flex flex-row items-center justify-between lg:justify-start">
             <a class="text-lg font-bold tracking-tighter text-blue-600 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
-              href="/groups/header/"> vasailocal </a>
+              href="./index.html"> vasailocal </a>
             <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
               <svg fill="currentColor" viewBox="0 0 20 20" class="w-8 h-8">
                 <path x-show="!open" fill-rule="evenodd"
@@ -92,7 +92,17 @@
             <h1 class="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl">
               Vasai Local | IT Hub.</h1>
             <p class="mb-8 text-base leading-relaxed text-left text-gray-500">Note: This site is under heavy development
-            </p>
+            </p><section>
+              <div class=" flex flex-col items-center px-5 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                  <div class="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
+                      <div class="w-full mx-auto">
+                          <h1>A small headline to switch your visitors into users.</h1>
+                          <h2>A small headline to switch your visitors into users.</h2>
+                          <p>Right. Say that again. No, no, George, look, it's just an act, right? Okay, so 9:00 you're strolling through the parking lot, you see us struggling in the car, you walk up, you open the door and you say, your line, George. Stop it. We're gonna take a little break but we'll be back in a while so, don't nobody go no where.</p>
+                      </div>
+                  </div>
+              </div>
+          </section>
             <div class="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex">
               <dl class="grid grid-cols-1 gap-12 md:grid-cols-2">
                 <!--Desktop Support-->
@@ -112,7 +122,7 @@
                     <h2 class="mb-3 text-lg font-medium tracking-tighter text-neutral-600">Desktop Support</h2>
                     <p class="text-base leading-relaxed text-gray-400">Technical assistance and troubleshooting
                       solutions tailored to individual workstations, laptops, and related devices.</p>
-                    <a href="#"
+                    <a href="./desktopsupport.html"
                       class="inline-flex items-center mt-6 font-semibold text-blue-500 md:mb-2 lg:mb-0 hover:text-neutral-600"
                       title="read more">
                       Learn More
@@ -196,6 +206,19 @@
     </section>
   </header>
 
+  <footer class="bg-white" aria-labelledby="footer-heading">
+    <h2 id="footer-heading" class="sr-only">Footer</h2>
+  
+    <div class="px-4 py-12 mx-auto bg-gray-50 max-w-7xl sm:px-6 lg:px-16">
+      <div class="flex flex-wrap items-baseline lg:justify-center">
+        <span class="mt-2 text-sm font-light text-gray-500">
+          Copyright © 2020 - 2021
+          <a href="https://wickedlabs.dev" class="mx-2 text-wickedblue hover:text-gray-500" rel="noopener noreferrer">@wickedlabsHQ</a>. Since 2020
+        </span>
+      </div>
+    </div>
+  </footer>
+  
 </body>
 
 </html>
