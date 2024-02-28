@@ -1158,6 +1158,18 @@ video {
   padding-top: 2.5rem;
 }
 
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1628,8 +1640,4 @@ video {
   .xl\:pl-24 {
     padding-left: 6rem;
   }
-}
-
-.bg-vasai-local {
-  background-image: linear-gradient(to left bottom, #ffffff, #fbf9fd, #fbf2fa, #fceaf3, #fee3ea, #fddee8, #fcd8e6, #fbd3e5, #eed0f1, #d8d1fc, #bad3ff, #96d6ff);
 }
