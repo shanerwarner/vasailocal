@@ -16,17 +16,43 @@
     <header>
     <!--Nav Bar-->
     <nav class="p-4">
-        <div class="max-w-6xl mx-auto">
-          <div class="flex justify-around">
-        <div>
-          Logo
-          <a href="" class="font-semibold text-blue-700">vasailocal</a></div>
-        <div>
-          <a href="" class="cursor-pointer rounded-lg px-3 py-2 font-medium hover:bg-slate-100 hover:text-blue-700 hover:outline hover:outline-1 hover:outline-slate-300 text-zinc-700">Contact Me</a>
-          <a href="" class="cursor-pointer rounded-lg px-3 py-2 font-medium hover:bg-slate-100 hover:text-blue-700 hover:outline hover:outline-1 hover:outline-slate-300 text-zinc-700">About</a>
+        <div class="mx-auto max-w-6xl">
+          <div class="flex justify-between">
+            <!--Logo and name-->
+            <div class="flex items-center">
+              <div class="bg flex place-items-center justify-start gap-2">
+                <img src="https://i.imgur.com/666VAxT.png" alt="" class="w-6 drop-shadow-md" />
+                <a href="" class="text- font-medium text-blue-700">vasailocal.it</a>
+              </div>
+            </div>
+            <!--Middle Menu-->
+            <div class="hidden items-center md:flex">
+              <div>
+                <a href="" class="cursor-pointer rounded-lg px-3 py-2 font-medium text-zinc-700 hover:bg-slate-100 hover:text-blue-700 hover:outline hover:outline-1 hover:outline-slate-300">Services</a>
+                <a href="" class="cursor-pointer rounded-lg px-3 py-2 font-medium text-zinc-700 hover:bg-slate-100 hover:text-blue-700 hover:outline hover:outline-1 hover:outline-slate-300">About</a>
+                <a href="" class="cursor-pointer rounded-lg px-3 py-2 font-medium text-zinc-700 hover:bg-slate-100 hover:text-blue-700 hover:outline hover:outline-1 hover:outline-slate-300">Contact Me</a>
+              </div>
+            </div>
+            <!--Right Corner Menu-->
+            <div>
+              <div><!--Secondary Menu--></div>
+            </div>
+      
+            <!--Mobile Button-->
+            <div class="flex items-center md:hidden">
+              <button class="mobile-menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
-        <div><!--Secondary Menu--></div>
-        </div>
+        <!--Mobile Menu-->
+        <div class="mobile-menu mt-6 flex hidden flex-col items-start rounded-lg border-2 border-solid p-4 font-medium text-zinc-700">
+          <a href="" class="m-1 m-3 block">About</a>
+          <a href="" class="m-1 m-3 block">Services</a>
+          <a href="" class="m-1 m-3 block">Contact Me</a>
         </div>
       </nav>
       <!--End of Nav Bar-->
