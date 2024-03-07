@@ -1071,6 +1071,10 @@ video {
   --tw-gradient-to: #14b8a6 var(--tw-gradient-to-position);
 }
 
+.to-teal-800 {
+  --tw-gradient-to: #115e59 var(--tw-gradient-to-position);
+}
+
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
