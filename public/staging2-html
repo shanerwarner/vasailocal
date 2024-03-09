@@ -62,7 +62,7 @@
       </div>
       <!--Mobile Menu-->
       <div
-        class="mobile-menu hidden flex-col items-end rounded-lg border-2 border-solid font-medium text-zinc-700 w-48 mt-10 shadow-m ml-6">
+        class="mobile-menu shadow-md  item items-end rounded-lg border-2  border-solid font-medium text-zinc-700 w-">
         <a href="" class=" m-3 block">About</a>
         <a href="./desktopsupport.html" class=" m-3 block">Services</a>
         <a href="./contact.html" class=" m-3 block">Contact Me</a>
@@ -112,11 +112,11 @@
             <div class="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex">
               <dl class="grid grid-cols-1 gap-12 md:grid-cols-2">
                 <!--Desktop Support-->
-                <a class="p-5 max-w-lg border border-zinc-300 rounded-2xl hover:shadow-md hover:shadow-indigo-50 flex flex-col items-center bg-neutral-100 ring-2 ring-slate-200"
+                <a class=" max-w-lg border overflow-auto border-zinc-300 rounded-2xl hover:shadow-md hover:shadow-indigo-50 flex flex-col items-center bg-neutral-100 ring-2 ring-slate-200"
                   href="#">
                   <img
                     src="https://images.unsplash.com/photo-1594031245755-1ac99bbc7a3c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    class=" rounded-lg overflow-hidden ring-4 ring-gray-600">
+                    class=" overflow-hidden">
                   <div class="mt-8">
                     <h4 class="font-bold text-xl text-gray-600 pl-3">Desktop Support</h4>
                     <p class="mt-2 text-gray-600 pl-3">Create Exercises for any subject with the topics you and your students
