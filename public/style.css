@@ -749,6 +749,10 @@ video {
   height: auto;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -1543,6 +1547,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .lg\:items-center {
     align-items: center;
   }
@@ -1606,4 +1614,3 @@ video {
     color: rgb(17 24 39 / var(--tw-text-opacity));
   }
 }
-
