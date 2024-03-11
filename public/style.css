@@ -749,6 +749,33 @@ video {
   height: 18rem;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-svh {
+  height: 100svh;
+}
+
+.h-lvh {
+  height: 100lvh;
+}
+
+.h-min {
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -1245,6 +1272,18 @@ video {
 
 .leading-relaxed {
   line-height: 1.625;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .tracking-tighter {
