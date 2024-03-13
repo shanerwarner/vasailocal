@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasai Local | The IT Hub</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body class="min-h-screen flex flex-col justify-between bg-zinc-800">
+
+  <nav class="flex flex-wrap items-center justify-between p-3 bg-slate-100 ">
+
+    <h1 class="font-extrabold text-2xl ">Vasailocal.it</h1>
+    <div class="flex md:hidden">
+        <button id="hamburger">
+            <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
+                width="40" height="40" />
+            <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
+                width="40" height="40" />
+        </button>
+    </div>
+    <div
+        class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none">
+        <a href="#"
+            class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3  border-blue-900 md:border-none">Home
+        </a>
+        <a href="#"
+            class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3  border-blue-900 md:border-none">Products
+        </a>
+        <a href="#"
+            class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-blue-900 md:border-none">Pricing
+        </a>
+        <a href="#"
+            class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Contact
+        </a>
+    </div>
+    <a href="#"
+        class="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-blue-900 hover:bg-blue-500 text-white md:rounded">Create
+        Account
+
+    </a>
+</nav>
+    <script>
+        document.getElementById("hamburger").onclick = function toggleMenu() {
+            const navToggle = document.getElementsByClassName("toggle");
+            for (let i = 0; i < navToggle.length; i++) {
+              navToggle.item(i).classList.toggle("hidden");
+            }
+          };
+    </script>
+
+
+<div class="bg-gray-700 p-4 min-h-screen">
+    <div aria-hidden="true" class="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20">
+      <div class="blur-[106px] h-56 bg-gradient-to-br  to-purple-400 from-blue-700"></div>
+      <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400  to-indigo-600"></div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+      <div class="md:w-2/3 lg:w-1/2 mt-12 text-gray-100">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-secondary">
+          <path fill-rule="evenodd"
+            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <h2 class="my-8 text-2xl font-bold text-white md:text-4xl">Services offered</h2>
+        <p class="text-gray-300">below are the list of awesome services provided, click on them to learn more</p>
+      </div>
+      <div
+        class="mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden  rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
+        <div class="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl  hover:shadow-gray-600/10">
+          <div class="relative space-y-8 py-12 p-8">
+            <img src="https://www.svgrepo.com/show/164986/logo.svg" loading="lazy" width="200" height="200"class="w-12 h-12 rounded-full" style="color:transparent">
+            <div class="space-y-2">
+              <h5 class="text-xl font-semibold text-white transition group-hover:text-secondary">Desktop Support</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+          <div class="relative space-y-8 py-12 p-8">
+            <img src="https://www.svgrepo.com/show/120853/logo.svg" loading="lazy" width="200" height="200"class="w-12 h-12 rounded-full" style="color:transparent" >
+            <div class="space-y-2">
+              <h5 class="text-xl font-semibold text-white transition group-hover:text-secondary">Network Solutions</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+          <div class="relative space-y-8 py-12 p-8">
+            <img src="https://www.svgrepo.com/show/120852/logo.svg" loading="lazy" width="200" height="200"class="w-12 h-12 rounded-full" style="color:transparent" >
+            <div class="space-y-2">
+              <h5 class="text-xl font-semibold text-white transition group-hover:text-secondary">Oracle Database</h5>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <footer class="flex flex-col space-y-10 justify-center m-10">
+
+        <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+            <a class="hover:text-gray-900" href="./staging4.html">Home</a>
+            <a class="hover:text-gray-900" href="#">About</a>
+            <a class="hover:text-gray-900" href="#">Services</a>
+            <a class="hover:text-gray-900" href="#">Desktop Support</a>
+            <a class="hover:text-gray-900" href="#">Network Solutions</a>
+            <a class="hover:text-gray-900" href="#">Oracle Database</a>
+        </nav>
+    
+        <div class="hidden flex justify-center space-x-5">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+            </a>
+            <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+            </a>
+        </div>
+        <p class="text-center text-gray-700 font-medium">&copy; 2024 vasailocal.it All rights reservered.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
