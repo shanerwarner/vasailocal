@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasai Local | The IT Hub</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<style>
+    img {
+
+      filter: drop-shadow(5px 5px 25px #4e1efcb4);
+        
+    }
+  </style>
+
+<body class="min-h-screen flex flex-col justify-between">
+
+    <nav class="md:mx-32 md:mt-4 md:rounded-2xl flex flex-wrap items-center justify-between md:justify-around p-3 bg-slate-200 ">
+
+        <a href="./index.html" class="font-extrabold text-2xl">vasailocal.it</a>
+        <div class="flex md:hidden">
+            <button id="hamburger">
+                <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
+                    width="40" height="40" />
+                <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
+                    width="40" height="40" />
+            </button>
+        </div>
+        <div
+            class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-zinc-300 md:border-none">
+            <a href="#"
+                class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3   md:border-none">Home
+            </a>
+            <a href="#"
+                class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3   md:border-none">Products
+            </a>
+            <a href="./services.html"
+                class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3  md:border-none">Pricing
+            </a>
+            <a href="./contact.html"
+                class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3 border-b-2 border-zinc md:border-none">Contact
+
+            </a>
+        </div>
+
+    </nav>
+    <script>
+        document.getElementById("hamburger").onclick = function toggleMenu() {
+            const navToggle = document.getElementsByClassName("toggle");
+            for (let i = 0; i < navToggle.length; i++) {
+                navToggle.item(i).classList.toggle("hidden");
+            }
+        };
+    </script>
+
+    <section class="text-gray-600 body-font bg-gradient-to-t  pt-10 h-auto">
+        <div class="container mx-auto flex md:px-24 md:py-10 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow mt-5 md:mt-0   md:w-1.5/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="text-4xl">👋Welcome to the</h1>
+                <h1
+                    class="text-4xl font-extrabold leading-9 tracking-tight mb-3 bg-gradient-to-r dark:from-indigo-500 dark:to-teal-500 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-indigo-500 to-teal-500 bg-clip-text text-transparent sm:text-4xl sm:leading-10 md:text-5xl md:leading-normal px-2">
+                    Vasai Local ◦ IT Hub.
+                </h1>
+
+                <p class="mb-8 md:pl-0  pl-2 pr-2s leading-relaxed dark:text-gray-600">
+                    Driving Digital Transformation
+                    in Your Neighborhood.
+                </p>
+                <p class="mb-8 md:pl-0  pl-2 pr-2s leading-relaxed dark:text-gray-600">
+                   Click on the link below to explore the awesome services provided
+                </p>
+                <div class="relative inline-flex  group">
+                    <div
+                        class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                    </div>
+                    <a href="./services.html" title="Get quote now"
+                        class="relative inline-flex items-center justify-center px-7 py-3 text-lg font-bold text-gray-900 transition-all duration-200 bg-white font-pj rounded-xl focus:outline-none focus:ring-2 border-4 border-gray-800 focus:ring-offset-2 focus:ring-gray-900"
+                        role="button">Explore Services
+                    </a>
+                </div>
+            </div>
+
+            <div class=" lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="./img/Vasailocal-it-logo-01.png">
+            </div>
+        </div>
+    </section>
+
+    <!--Hamburger Menu Script-->
+    <script>
+        document.getElementById("hamburger").onclick = function toggleMenu() {
+            const navToggle = document.getElementsByClassName("toggle");
+            for (let i = 0; i < navToggle.length; i++) {
+                navToggle.item(i).classList.toggle("hidden");
+            }
+        };
+    </script>
+
+
+
+
+
+    <footer class="flex flex-col space-y-10 justify-center m-10">
+
+        <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+            <a class="hover:text-gray-900" href="./index.html">Home</a>
+            <a class="hover:text-gray-900" href="./about-me.html">About Me</a>
+            <a class="hover:text-gray-900" href="./services.html">Services</a>
+            <a class="hover:text-gray-900" href="./services.html">Contact</a>
+
+        </nav>
+
+        <div class="hidden flex justify-center space-x-5">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+            </a>
+            <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+            </a>
+        </div>
+        <p class="text-center text-gray-700 font-medium">&copy; 2024 vasailocal.it All rights reservered.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
+
+<!--End-->>
