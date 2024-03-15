@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vasai Local | IT</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasai Local | IT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -14,384 +14,311 @@
 
 <body class="">
 
-  <header class=>
-    <!--Nav Bar-->
-    <header class="p-4 ">
-      <nav class="md:mx-32 md:mt-4 md:rounded-2xl flex flex-wrap items-center justify-between md:justify-around p-3 bg-slate-200 rounded-xl px-4 shadow-lg ring-1 ring-gray-500">
+    <header class=>
+        <!--Nav Bar-->
+        <header class="p-4 ">
+            <nav
+                class="md:mx-32 md:mt-4 md:rounded-2xl flex flex-wrap items-center justify-between md:justify-around p-3 bg-slate-200 rounded-xl px-4 shadow-lg ring-1 ring-gray-500">
 
-      <a href="./index.html" class="font-extrabold text-2xl">vasailocal.it</a>
-      <div class="flex md:hidden">
-          <button id="hamburger">
-              <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
-                  width="40" height="40" />
-              <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
-                  width="40" height="40" />
-          </button>
-      </div>
-      <div
-          class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-zinc-300 md:border-none">
-          <a href="#"
-              class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3   md:border-none">Home
-          </a>
-          <a href="#"
-              class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3   md:border-none">Products
-          </a>
-          <a href="./services.html"
-              class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3  md:border-none">Pricing
-          </a>
-          <a href="./contact.html"
-              class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3 border-b-2 border-zinc md:border-none">Contact
-
-          </a>
-      </div>
-</header>
-  <script>
-      document.getElementById("hamburger").onclick = function toggleMenu() {
-          const navToggle = document.getElementsByClassName("toggle");
-          for (let i = 0; i < navToggle.length; i++) {
-              navToggle.item(i).classList.toggle("hidden");
-          }
-      };
-  </script>
-    <!--End of Nav Bar-->
-
-<!-- source: https://github.com/mfg888/Responsive-Tailwind-CSS-Grid/blob/main/index.html -->
-<!-- source: https://github.com/mfg888/Responsive-Tailwind-CSS-Grid/blob/main/index.html -->
-
-<div class="p-10 text-center ">
-  <h1 class="mb-4 text-4xl font-bold bg-gradient-to-r from-indigo-500 to-teal-500 bg-clip-text text-transparen">Services Offered</h1>
-  <h1 class="text-3xl">From ₹90 Onwards</h1>
-</div>
-
-<!-- ✅ Grid Section - Starts Here 👇 -->
-<section id="Projects" class="mx-auto mb-5 mt-10 grid w-fit grid-cols-1 justify-center justify-items-center gap-x-14 gap-y-20 md:grid-cols-2 lg:grid-cols-4">
-    <!--   ✅ Product card 1 - Starts Here 👇 -->
-    <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="./contact.html">
-        <img src="./img/router.jpg" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-        <div class="w-72 px-4 py-3">
-          <span class="mr-3 text-xs uppercase text-gray-400">ALL Brand</span>
-          <p class="block truncate text-lg font-bold capitalize text-black">WiFi Router Configuration</p>
-          <div class="flex items-center">
-            <p class="my-3 cursor-auto text-lg font-semibold text-black">₹90</p>
-            <del>
-              <p class="ml-2 cursor-auto text-sm text-gray-600">₹150</p>
-            </del>
-            <div class="ml-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-                           
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!--   🛑 Product card 1 - Ends Here  -->
-
-
-    <!--   ✅ Product card 5 - Starts Here 👇 -->
-    <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-        <img src="./img/laptop-1.jpg" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-        <div class="w-72 px-4 py-3">
-          <span class="mr-3 text-xs uppercase text-gray-400">ALL BRANDS</span>
-          <p class="block truncate text-lg font-bold capitalize text-black">Laptop Support</p>
-          <div class="flex items-center">
-            <p class="my-3 cursor-auto text-lg font-semibold text-black">₹169</p>
-            <del>
-              <p class="ml-2 cursor-auto text-sm text-gray-600">₹250</p>
-            </del>
-            <div class="ml-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!--   🛑 Product card 5 - Ends Here  -->
-  
-      <!--   ✅ Product card 6 - Starts Here 👇 -->
-      <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-        <a href="#">
-          <img src="./img/desktop-Support.jpg" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-          <div class="w-72 px-4 py-3">
-            <span class="mr-3 text-xs uppercase text-gray-400">ALL BRANDS</span>
-            <p class="block truncate text-lg font-bold capitalize text-black">Desktop Support</p>
-            <div class="flex items-center">
-              <p class="my-3 cursor-auto text-lg font-semibold text-black">₹169</p>
-              <del>
-                <p class="ml-2 cursor-auto text-sm text-gray-600">₹250</p>
-              </del>
-              <div class="ml-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <!--   🛑 Product card 6 - Ends Here  -->
-
-          <!--   ✅ Product card 1 - Starts Here 👇 -->
-    <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-        <img src="./img/SSD.jpg" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-        <div class="w-72 px-4 py-3">
-          <span class="mr-3 text-xs uppercase text-gray-400">ALL Brand</span>
-          <p class="block truncate text-lg font-bold capitalize text-black">HDD to SSD Upgrade</p>
-          <div class="flex items-center">
-            <p class="my-3 cursor-auto text-lg font-semibold text-black">₹90</p>
-            <del>
-              <p class="ml-2 cursor-auto text-sm text-gray-600">₹150</p>
-            </del>
-            <div class="ml-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!--   🛑 Product card 1 - Ends Here  -->
-
-
-
-    <!--   ✅ Product card 4 - Starts Here 👇 -->
-    <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-        <img src="./img/landing_u6-enterprise.13b6ed99.jpg" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-        <div class="w-72 px-4 py-3">
-          <span class="mr-3 text-xs uppercase text-gray-400">ALL Brand</span>
-          <p class="block truncate text-lg font-bold capitalize text-black">Access Point Configuration</p>
-          <div class="flex items-center">
-            <p class="my-3 cursor-auto text-lg font-semibold text-black">₹299</p>
-            <del>
-              <p class="ml-2 cursor-auto text-sm text-gray-600">₹499</p>
-            </del>
-            <div class="ml-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!--   🛑 Product card 4 - Ends Here  -->
-
-    <!--   ✅ Product card 6 - Starts Here 👇 -->
-    <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
-        <img src="./img/win11-2.jpg" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-        <div class="w-72 px-4 py-3">
-          <span class="mr-3 text-xs uppercase text-gray-400">Microsoft</span>
-          <p class="block truncate text-lg font-bold capitalize text-black">Windows 10, 11 Installation</p>
-          <div class="flex items-center">
-            <p class="my-3 cursor-auto text-lg font-semibold text-black">₹160</p>
-            <del>
-              <p class="ml-2 cursor-auto text-sm text-gray-600">₹199</p>
-            </del>
-            <div class="ml-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!--   🛑 Product card 6 - Ends Here  -->
-        <!--   ✅ Product card 6 - Starts Here 👇 -->
-        <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-          <a href="#">
-            <img src="./img/Server-2019.png" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-            <div class="w-72 px-4 py-3">
-              <span class="mr-3 text-xs uppercase text-gray-400">Microsoft</span>
-              <p class="block truncate text-lg font-bold capitalize text-black">Windows Server 2019</p>
-              <div class="flex items-center">
-                <p class="my-3 cursor-auto text-lg font-semibold text-black">₹1599</p>
-                <del>
-                  <p class="ml-2 cursor-auto text-sm text-gray-600">₹2500</p>
-                </del>
-                <div class="ml-auto">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                  </svg>
+                <a href="./index.html" class="font-extrabold text-2xl">VasaiLocal.IT</a>
+                <div class="flex md:hidden">
+                    <button id="hamburger">
+                        <img class="toggle block"
+                            src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40"
+                            height="40" />
+                        <img class="toggle hidden"
+                            src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40"
+                            height="40" />
+                    </button>
                 </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!--   🛑 Product card 6 - Ends Here  -->
+                <div
+                    class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-zinc-300 md:border-none">
+                    <a href="#"
+                        class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3   md:border-none">Home
+                    </a>
+                    <a href="#"
+                        class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3   md:border-none">Products
+                    </a>
+                    <a href="./services.html"
+                        class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3  md:border-none">Pricing
+                    </a>
+                    <a href="./contact.html"
+                        class="block md:inline-block text-zinc-900 hover:text-blue-500 px-3 py-3 border-b-2 border-zinc md:border-none">Contact
 
-            <!--   🛑 Product card 6 - Ends Here  -->
-        <!--   ✅ Product card 6 - Starts Here 👇 -->
-        <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-          <a href="#">
-            <img src="./img/Server2022.png" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-            <div class="w-72 px-4 py-3">
-              <span class="mr-3 text-xs uppercase text-gray-400">Microsoft</span>
-              <p class="block truncate text-lg font-bold capitalize text-black">Windows Server 2022</p>
-              <div class="flex items-center">
-                <p class="my-3 cursor-auto text-lg font-semibold text-black">₹1599</p>
-                <del>
-                  <p class="ml-2 cursor-auto text-sm text-gray-600">₹2500</p>
-                </del>
-                <div class="ml-auto">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                  </svg>
+                    </a>
                 </div>
-              </div>
-            </div>
-          </a>
+        </header>
+        <script>
+            document.getElementById("hamburger").onclick = function toggleMenu() {
+                const navToggle = document.getElementsByClassName("toggle");
+                for (let i = 0; i < navToggle.length; i++) {
+                    navToggle.item(i).classList.toggle("hidden");
+                }
+            };
+        </script>
+        <!--End of Nav Bar-->
+
+        <!-- source: https://github.com/mfg888/Responsive-Tailwind-CSS-Grid/blob/main/index.html -->
+        <!-- source: https://github.com/mfg888/Responsive-Tailwind-CSS-Grid/blob/main/index.html -->
+
+        <div class="p-10 text-center ">
+            <h1
+                class="mb-4 text-4xl font-bold bg-gradient-to-r from-indigo-500 to-teal-500 bg-clip-text text-transparen">
+                Services Offered</h1>
+            <h1 class="text-3xl">From ₹90 Onwards</h1>
         </div>
-        <!--   🛑 Product card 6 - Ends Here  -->
 
 
-        <!--   ✅ Product card 6 - Starts Here 👇 -->
-        <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-          <a href="#">
-            <img src="./img/Perpheraial.jpg" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-            <div class="w-72 px-4 py-3">
-              <span class="mr-3 text-xs uppercase text-gray-400">Printers, Keyboard, Camera, Etc.</span>
-              <p class="block truncate text-lg font-bold capitalize text-black">Peripheral Support</p>
-              <div class="flex items-center">
-                <p class="my-3 cursor-auto text-lg font-semibold text-black">₹169</p>
-                <del>
-                  <p class="ml-2 cursor-auto text-sm text-gray-600">₹199</p>
-                </del>
-                <div class="ml-auto">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                  </svg>
+
+        <main class="p-4 flex-grow container mx-auto">
+
+            <!-- component -->
+
+
+            <div class="relative overflow-x-auto border-2 rounded-2xl border-gray-300 ring-gray-600 p-x ">
+                <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase bg-yellow-300 dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">
+                                Service name
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Price
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Category
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Description
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                WiFi Router
+                            </th>
+                            <td class="px-6 py-4">
+                                ₹90
+                            </td>
+                            <td class="px-6 py-4">
+                                Configuration
+                            </td>
+                            <td class="px-6 py-4">
+                                New/Existing Configuration
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Access Point
+                            </th>
+                            <td class="px-6 py-4">
+                                ₹299
+                            </td>
+                            <td class="px-6 py-4">
+                                Configuration
+                            </td>
+                            <td class="px-6 py-4">
+                                New/Existing Configuration
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Laptop
+                            </th>
+                            <td class="px-6 py-4">
+                                ₹169
+                            </td>
+                            <td class="px-6 py-4">
+                                Support
+                            </td>
+                            <td class="px-6 py-4">
+                                Troubleshooting
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Desktop
+                            </th>
+                            <td class="px-6 py-4">
+                                ₹169
+                            </td>
+                            <td class="px-6 py-4">
+                                Support
+                            </td>
+                            <td class="px-6 py-4">
+                                Troubleshooting
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                HDD to SSD Upgrade
+                            </th>
+                            <td class="px-6 py-4">
+                                ₹169
+                            </td>
+                            <td class="px-6 py-4">
+                                Hardware
+                            </td>
+                            <td class="px-6 py-4">
+                                Upgrade from HDD to SSD.
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                SSD Upgrade
+                            </th>
+                            <td class="px-6 py-4">
+                                ₹169
+                            </td>
+                            <td class="px-6 py-4">
+                                Hardware
+                            </td>
+                            <td class="px-6 py-4">
+                                Upgrade from HDD to SSD.
+                            </td>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Windows 10
+                            </th>
+                            <td class="px-6 py-4">
+                                ₹160
+                            </td>
+                            <td class="px-6 py-4">
+                                Installation
+                            </td>
+                            <td class="px-6 py-4">
+                                Format and Fresh Install
+                            </td>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Windows Server 2019
+                            </th>
+                            <td class="px-6 py-4">
+                                ₹1599
+                            </td>
+                            <td class="px-6 py-4">
+                                Installation
+                            </td>
+                            <td class="px-6 py-4">
+                                Fresh Install
+                            </td>
+                        </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                Windows Server 2022
+                            </th>
+                            <td class="px-6 py-4">
+                                ₹1599
+                            </td>
+                            <td class="px-6 py-4">
+                                Installation
+                            </td>
+                            <td class="px-6 py-4">
+                                Fresh Install
+                            </td>
+                        </tr>
+
+                        </tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <Div class="px-3 mt-5">
+                <h2 class=" text-2xl font-bold pb-2">Get Remote Support Now!</h2>
+                <p class=" py-1">Whether it's troubleshooting software glitches, setting up devices, or resolving
+                    connectivity issues, our remote support service ensures quick and efficient solutions from the
+                    comfort of your home. Say goodbye to tech headaches – reach out for remote support today!</p>
+                <p class=" py-1">Remote Support Provided through AnyDesk or any other prefered Choice of Remote Agents.
+                </p>
+            </Div>
+
+            <div class="flex flex-wrap items-center justify-center mt-10">
+                <div class="relative inline-flex  group">
+                    <div
+                        class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                    </div>
+                    <a href="./contact.html" title="Get quote now"
+                        class="relative inline-flex items-center justify-center px-4 py-1 text-lg font-bold text-gray-900 transition-all duration-200 bg-white font-pj rounded-xl focus:outline-none focus:ring-2 border-4 border-gray-800 focus:ring-offset-2 focus:ring-gray-900"
+                        role="button">Contact Me
+                    </a>
                 </div>
-              </div>
+
             </div>
-          </a>
-        </div>
-        <!--   🛑 Product card 6 - Ends Here  -->
 
-  <!--   ✅ Product card 2 - Starts Here 👇 -->
-  <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-    <a href="#">
-      <img src="./img/rack.avif" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-      <div class="w-72 px-4 py-3">
-        <span class="mr-3 text-xs uppercase text-gray-400">All Brands</span>
-        <p class="block truncate text-lg font-bold capitalize text-black">Network Rack Setup</p>
-        <div class="flex items-center">
-          <p class="my-3 cursor-auto text-lg font-semibold text-black">₹1999</p>
-          <del>
-            <p class="ml-2 cursor-auto text-sm text-gray-600">₹2500</p>
-          </del>
-          <div class="ml-auto">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-              <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-  <!--   🛑 Product card 2- Ends Here  -->
+            <div class="flex flex-wrap items-center justify-center mt-10">
+                <div class="relative inline-flex  group">
+                    <div
+                        class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                    </div>
+                    <a href="./contact.html" title="Get quote now"
+                        class="relative inline-flex items-center justify-center px-4 py-1 text-lg font-bold text-gray-900 transition-all duration-200 bg-white font-pj rounded-xl focus:outline-none focus:ring-2 border-4 border-gray-800 focus:ring-offset-2 focus:ring-gray-900"
+                        role="button">Contact Me
+                    </a>
+                </div>
 
-  <!--   ✅ Product card 3 - Starts Here 👇 -->
-  <div class="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl">
-    <a href="#">
-      <img src="./img/nas.webp" alt="Product" class="h-80 w-72 rounded-t-xl object-cover" />
-      <div class="w-72 px-4 py-3">
-        <span class="mr-3 text-xs uppercase text-gray-400">ALL Brand</span>
-        <p class="block truncate text-lg font-bold capitalize text-black">Network Storage - NAS</p>
-        <div class="flex items-center">
-          <p class="my-3 cursor-auto text-lg font-semibold text-black">₹2599</p>
-          <del>
-            <p class="ml-2 cursor-auto text-sm text-gray-600">₹4999</p>
-          </del>
-          <div class="ml-auto">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-              <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-  <!--   🛑 Product card 3 - Ends Here  -->
+            </div>
+
+            </div>
+        </main>
+
+        <!--Mobile Menu Javascript Code-->
+        <script>
+
+            //grab everyting we need
+
+            const btn = document.querySelector('button.mobile-menu-button');
+            const menu = document.querySelector('.mobile-menu');
 
 
+            //add event listeners
+
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+            }
+            )
 
 
-  
-
-
-</section>
-
-<!-- 🛑 Grid Section - Ends Here -->
-
-
-
-    <!--Mobile Menu Javascript Code-->
-    <script>
-
-      //grab everyting we need
-
-      const btn = document.querySelector('button.mobile-menu-button');
-      const menu = document.querySelector('.mobile-menu');
-
-
-      //add event listeners
-
-      btn.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-      }
-      )
-
-
-    </script>
+        </script>
         <footer class="flex flex-col space-y-10 justify-center m-10 mt-12">
 
-          <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
-              <a class="hover:text-gray-900" href="./index.html">Home</a>
-              <a class="hover:text-gray-900" href="./about-me.html">About Me</a>
-              <a class="hover:text-gray-900" href="./services.html">Services</a>
-              <a class="hover:text-gray-900" href="./services.html">Contact</a>
-  
-          </nav>
-  
-          <div class="hidden flex justify-center space-x-5">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                  <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                  <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                  <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
-              </a>
-              <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
-                  <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                  <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
-              </a>
-          </div>
-          <p class="text-center text-gray-700 font-medium">&copy; 2024 vasailocal.it All rights reservered.</p>
-      </footer>
+            <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+                <a class="hover:text-gray-900" href="./index.html">Home</a>
+                <a class="hover:text-gray-900" href="./about-me.html">About Me</a>
+                <a class="hover:text-gray-900" href="./services.html">Services</a>
+                <a class="hover:text-gray-900" href="./services.html">Contact</a>
+
+            </nav>
+
+            <div class="hidden flex justify-center space-x-5">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+                </a>
+                <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+                </a>
+            </div>
+            <p class="text-center text-gray-700 font-medium">&copy; 2024 vasailocal.it All rights reservered.</p>
+        </footer>
 </body>
 
 </html>
